@@ -1,0 +1,223 @@
+body{
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Playfair Display', serif;
+}
+p{
+    color: #8f8f8f;
+    font-size: 1.1rem;
+}
+
+
+
+
+/* Heading Section */
+
+.heading-text{
+    padding-top: 10%;
+    font-size: 3.5rem;
+    size: 3rem;
+    line-height: 1.5;
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 4rem;
+}
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 5.5rem;
+}
+
+
+
+
+
+/* Containers */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+
+
+
+
+
+/* Sections */
+
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+
+
+
+
+/* Navigation Bar */
+.navbar{
+    padding: 0 0 0rem;
+    bottom: 0%;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+
+
+
+
+
+/* Download Button */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+
+
+
+
+/* Title Section */
+#title{
+    text-align: left;
+}
+#title .container-fluid {
+    padding: 2% 15% 7%;
+}
+.head{
+    padding: 0% 15% 7%;
+}
+
+
+/* Title Image */
+.img1{
+    height: 600px;
+    transform: rotate(30deg);
+    position: absolute;
+    right: 15%;
+}
+
+
+
+
+
+/* Feature Section */
+#features{
+    position: relative;
+}
+.feature-box{
+    padding: 5%;
+}
+.feature-heading{
+    font-size: 1.5rem;
+}
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+
+
+
+
+/* Testimonial Section */
+#testimonials{
+    background-color: #ef8172;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 4rem;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+
+
+
+/* Press */
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+
+
+
+
+/* Pricing Section */
+
+#pricing{
+    padding: 100px;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+.pricing-text{
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+
+
+
+
+/* Call to Action */
+
+
+
+
+/* Footer Section */
+
+.social-icon{
+    color: #000000;
+    margin-bottom: 1rem;
+    padding: 1% 1%;
+}
+.social-icon:hover{
+    color: #afa4a6;
+}
+
+
+
+
+
+@media (max-width: 1208px){
+    #title{
+        text-align: center;
+    }
+    .img1{
+        position: static;
+        transform: none;
+    }
+    
+}
+
